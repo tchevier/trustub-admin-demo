@@ -217,7 +217,7 @@ export default function AdminSideNav() {
                                     CONTACTS
                                 </h1>
                             </div>
-                            <div className="bg-sub-blue text-main-blue flex items-center justify-start ps-5">
+                            <div className="bg-sub-blue text-main-blue flex items-center justify-center">
                                 <h2>Filter Contacts By...</h2>
                             </div>
                             <ul
