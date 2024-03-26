@@ -6,8 +6,21 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --main-blue-rgb: 63,104,209;
+  --sub-blue-rgb:206,241,253;
 }
-
+.bg-main-blue {
+  background-color: rgb(var(--main-blue-rgb));
+}
+.text-main-blue {
+  color: rgb(var(--main-blue-rgb));
+}
+.border-main-blue {
+    border-color: rgb(var(--main-blue-rgb));
+}
+.bg-sub-blue {
+  background-color: rgb(var(--sub-blue-rgb));
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
