@@ -237,7 +237,7 @@ export default function AdminSideNav() {
                                                         item.current
                                                             ? "bg-gray-400 text-white"
                                                             : "text-gray-400 hover:text-white hover:bg-gray-800",
-                                                        "group flex justify-center gap-x-1 rounded-md text-main-blue border-main-blue py-1 text-sm leading-6"
+                                                        "group flex justify-center gap-x-1 rounded-md text-main-blue border-main-blue border py-1 text-sm leading-6"
                                                     )}
                                                 >
                                                     <item.icon
